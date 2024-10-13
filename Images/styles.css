@@ -1,0 +1,105 @@
+/* Custom Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4CAF50;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+    color: #ffeb3b; /* Light Yellow */
+}
+
+/* General Heading Styles */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style for p tags (HTML Tag Selector Example) */
+p {
+    color: #555;
+    padding: 0 15px;
+    text-align: justify;
+}
+
+/* Strong tag style (HTML Tag Selector Example) */
+strong {
+    color: #D32F2F; /* Red */
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Image Gallery (Grid) */
+section#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+section#gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* New CSS Property from Mozilla Reference */
+img {
+    object-fit: cover; /* Ensure image covers the grid area completely */
+}
+
+/* Example of Class Usage */
+.border-box {
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+.bg-lightblue {
+    background-color: #e0f7fa;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    section#gallery {
+        grid-template-columns: 1fr;
+    }
+}
