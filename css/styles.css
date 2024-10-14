@@ -7,7 +7,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background-color: #52C6BC; 
-    color: black;
+    color: #0A090C;
 }
 
 /* Header Styles */
@@ -44,7 +44,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: black;
+    background-color: #0A090C;
     color: lightblue;
 }
 
@@ -62,7 +62,7 @@ header h1 {
 
 header p {
     font-size: 18px;
-    color: black;
+    color: #0A090C;
     font-weight: 800;
 }
 
@@ -73,11 +73,11 @@ section {
 }
 
 section h2, section h3 {
-    color: cyan;
+    color: #07393C;
 }
 
 section p, section ol, section ul {
-    color: grey;
+    color: #0A090C;
 }
 
 /* List Styles */
