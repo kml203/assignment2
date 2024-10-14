@@ -32,7 +32,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    background-color: cyan;
+    background-color: #52C6BC;
 }
 
 nav ul li a {
