@@ -2,27 +2,30 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-optical-sizing: auto;
-    font-weight:normal;
+    font-weight: normal;
     font-style: normal;
-    font-size: 16;
+    font-size: 16px; /* Added px unit */
     line-height: 1.5;
     background-color: white;
     color: black;
 }
-h1, h2, h3, h4, h5{
+
+/* Header Styles */
+h1, h2, h3, h4, h5 {
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-.wrapper{
-width: 75;
+
+/* Wrapper Styling */
+.wrapper {
+    width: 75%; 
     background-color: #FFFFFF;
     margin: 0 auto;
-    padding: 3.5;
-    border-radius: 2;
-    box-shadow: 3 -3 9 #FFFFFF;
+    padding: 3.5rem;
+    border-radius: 2px;
+    box-shadow: 3px -3px 9px #FFFFFF;
 }
-
 
 /* Navigation Styles */
 nav ul {
