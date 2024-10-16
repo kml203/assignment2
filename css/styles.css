@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5 {
     background-color: #F0EDEE;
     margin: 0 auto;
     padding: 3.5rem;
-    border-radius: 2px;
+    border-radius: 10px;
     box-shadow: 3px -3px 9px #F0EDEE;
 }
 
@@ -35,7 +35,7 @@ nav ul li a {
     color: #F0EDEE;
     text-decoration: none;
     font-weight: 900;
-    background-color: hotpink;
+    background-color: ##EB62E4;
     transition: background-color 0.3s ease;
 }
 
@@ -52,7 +52,7 @@ header {
 
 header h1 {
     font-size: 35px;
-    color: hotpink;
+    color: #EB62E4;
 }
 
 header p {
