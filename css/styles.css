@@ -1,4 +1,3 @@
-/* General Body Styling */
 body {
     font-family: 'Montserrat', sans-serif;
     font-optical-sizing: auto;
@@ -10,16 +9,14 @@ body {
     color: #0A090C;
 }
 
-/* Header Styles */
 h1, h2, h3, h4, h5 {
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-/* Wrapper Styling */
 .wrapper {
-    width: 75%;
+    width: 60%;
     background-color: #F0EDEE;
     margin: 0 auto;
     padding: 3.5rem;
@@ -27,7 +24,6 @@ h1, h2, h3, h4, h5 {
     box-shadow: 3px -3px 9px #F0EDEE;
 }
 
-/* Navigation Styles */
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -48,7 +44,6 @@ nav ul li a:hover {
     color: #90DDF0;
 }
 
-/* Header Styles */
 header {
     background-color: #90DDF0;
     padding: 20px;
@@ -66,7 +61,6 @@ header p {
     font-weight: 800;
 }
 
-/* Section Styles */
 section {
     padding: 20px;
     background-color: #F0EDEE; 
@@ -80,12 +74,10 @@ section p, section ol, section ul {
     color: #0A090C;
 }
 
-/* List Styles */
 ol, ul {
     margin-left: 20px;
 }
 
-/* Image Gallery Grid */
 #gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -105,7 +97,6 @@ ol, ul {
     filter: brightness(0.9);
 }
 
-/* Footer Styles */
 footer {
     background-color: black;
     color: white;
@@ -114,7 +105,6 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
